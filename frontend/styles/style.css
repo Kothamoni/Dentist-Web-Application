@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.color-text{
+    color:#4235cd;
+
+}
+body{
+     background-color:rgb(255, 255, 255);
+}
+header{
+   margin: 0 auto;
+   padding-top:20px;
+   padding-bottom:20px;
+   
+    
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 22px;
+    
+}
+.header-container {
+   margin:  0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    max-width: 1000px;
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.appointment{
+    background-color:#4235cd;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.appointment a{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    gap:8px;
+    align-items: center;
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(125, 124, 124);
+    font-weight: 700;
+}
+hr{
+    color:rgb(236, 230, 230);
+}
+
+
+.hero-section{
+    background-image: url('/frontend/assests/images/hero.jpg');
+    border-radius: 10px;
+    margin: 0 auto;
+   max-height:720px ;background-position: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    
+    backdrop-filter: blur(10px);
+    
+}
+
+.hero-container{
+    margin: 0 auto;
+text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+}
+
+.title-heading,.expertise-heading{
+    margin-top:30px;
+    font-weight: bold;
+     font-size:38px;
+}
+.title-paragraph,
+.expertise-paragraph{
+    font-size:18px;
+    color:#181818 ;
+}
+
+.view-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top:10px ;
+}
+.get-started{
+     background-color: #4235cd;
+    max-width: 400px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    height: 50px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+.service{
+    border:1px solid #4235cd;
+     background-color:white;
+    max-width: 350px;
+    height: 50px;
+    color: #181818;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    gap:8px;
+    
+}
+.service a{
+    text-decoration: none;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-image img{
+    margin-top:20px;
+    margin: 0 auto;
+}
+.appointment-div,.patient-comfort{
+    border:none;
+    border-radius: 8px;
+    background-color: aliceblue;
+    width:350px;height:150px;
+    text-align: center;
+    padding: 50px;
+     gap:10px;
+     margin-bottom: 5px;
+}
+.sharing-hero i{
+    background-color: #4235cd;
+    border-radius: 5px;
+    border:none;
+    color:white;
+}
+
+.sharing-hero {
+    font-size: 26px;
+    font-weight: bold;
+}
+#treatment{
+    margin-top:200px;
+}
+
+.treatment-heading,
+.expertise-heading,
+.doctor-heading{
+    margin-top:40px;
+    gap:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cards{
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-left: 30px;
+    
+    
+}
+.card-1,.card-2,.card-3,.card-4,.card-5{
+    background-position: center;
+    max-width: 300px;
+    height:350px;
+    border-radius: 10px;
+    border: none;
+   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    background-repeat: no-repeat;
+    background-image: cover;
+    padding:10px;
+}
+.card-1{
+    background-image: url('/frontend/assests/images/dental-team.webp');
+    
+}
+.card-2{
+     background-image: url('/frontend/assests/images/im.jpeg');
+    
+}
+.card-3{
+     background-image: url('/frontend/assests/images/root_canal.jpg');
+    
+}
+.card-4{
+     background-image: url('/frontend/assests/images/filling.jpg');}
+     
+.card-5{
+     background-image: url('/frontend/assests/images/dental-crowns.png');
+    
+}
+.card-1 h3,.card-2 h3,.card-3 h3,.card-4 h3,.card-5 h3{
+    max-width: auto;
+    backdrop-filter: blur(10px);
+    color:#0d060d;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding:10px;
+}
+
+.cards-expertise{
+     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-left: 30px;
+}
+.card-1-expertise,
+.card-2-expertise,
+.card-3-expertise {
+    height: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(5, 5, 6);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+.card-1-expertise{
+    background-image: url('/frontend/assests/images/dental-crowns.png');
+}
+.card-2-expertise{
+    background-image: url('/frontend/assests/images/technology.jpg');
+}
+.card-3-expertise{
+    background-image: url('/frontend/assests/images/patient.jpg');
+}
+.cards-expert{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10x;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-left: 45px;
+}
