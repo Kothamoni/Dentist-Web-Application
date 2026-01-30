@@ -85,7 +85,7 @@ hr{
 
 
 .hero-section{
-    background-image: url('/frontend/assests/images/hero.jpg');
+    background-image: url('/assests/images/hero.jpg');
     border-radius: 10px;
     margin: 0 auto;
    max-height:720px ;background-position: cover;
@@ -222,22 +222,22 @@ text-align: center;
     padding:10px;
 }
 .card-1{
-    background-image: url('/frontend/assests/images/dental-team.webp');
+    background-image: url('/assests/images/dental-team.webp');
     
 }
 .card-2{
-     background-image: url('/frontend/assests/images/im.jpeg');
+     background-image: url('/assests/images/im.jpeg');
     
 }
 .card-3{
-     background-image: url('/frontend/assests/images/root_canal.jpg');
+     background-image: url('/assests/images/root_canal.jpg');
     
 }
 .card-4{
-     background-image: url('/frontend/assests/images/filling.jpg');}
+     background-image: url('/assests/images/filling.jpg');}
      
 .card-5{
-     background-image: url('/frontend/assests/images/dental-crowns.png');
+     background-image: url('/assests/images/dental-crowns.png');
     
 }
 .card-1 h3,.card-2 h3,.card-3 h3,.card-4 h3,.card-5 h3{
@@ -276,13 +276,13 @@ text-align: center;
 
 
 .card-1-expertise{
-    background-image: url('/frontend/assests/images/dental-crowns.png');
+    background-image: url('/assests/images/dental-crowns.png');
 }
 .card-2-expertise{
-    background-image: url('/frontend/assests/images/technology.jpg');
+    background-image: url('/assests/images/technology.jpg');
 }
 .card-3-expertise{
-    background-image: url('/frontend/assests/images/patient.jpg');
+    background-image: url('/assests/images/patient.jpg');
 }
 .cards-expert{
     display: grid;
