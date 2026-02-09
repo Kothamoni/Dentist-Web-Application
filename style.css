@@ -139,6 +139,7 @@ text-align: center;
 }
 .get-started a{
     text-decoration: none;
+    color:white;
 }
 .service{
     border:1px solid #4235cd;
