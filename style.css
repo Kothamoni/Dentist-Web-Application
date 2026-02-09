@@ -137,6 +137,9 @@ text-align: center;
     text-align: center;
     border-radius: 8px;
 }
+.get-started a{
+    text-decoration: none;
+}
 .service{
     border:1px solid #4235cd;
      background-color:white;
